@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/food.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.blue {
+    color: blue !important;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absoulte;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%,100%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 15px 0 40;
+    font-size: 15px;
+    color: #fff;
+}
+.hero-btn{
+    display: incline-block;
+    text-decoration: none;
+    color: #fff;
+    Border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px soild #f44336;
+    background: rgb(30, 143, 180);
+    transition: .5s;
+    color: white;
+
+
+}
+.quiz-btn{
+    display: incline-block;
+    text-decoration: none;
+    color: white;
+    Border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.quiz-btn:hover{
+    border: 1px soild #f44336;
+    background: rgb(180, 115, 30);
+    transition: .5s;
+    color: white;
+
+
+}
+.quiz{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.quiz-col{
+    flex-basis: 31%;
+    background: #16234a;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+.quiz-col:hover{
+    box-shadow: 0 0 20px 0px rgb(255, 255, 255);
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #fff;
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),#003590),url(Images/doctor.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    
+
+}
+.about{
+    width: 90%;
+    color: #fff;
+    position: absoulte;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%,300%);
+    text-align: center;
+}
+.whatis{
+    width: 90%;
+    color: #000;
+    position: absoulte;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%,180%);
+    text-align: center;
+}
+.about h1{
+    font-size: 62px;
+    display: incline-block;
+    text-decoration: none;
+    color: #fff;
+    Border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+}
+.whatis h1{
+    font-size: 40px;
+}
+.whatis p{
+    font-size: 20px;
+}
+.whatis h2{
+    font-size: 40px;
+}
+.whatis h3{
+    font-size: 40px;
+}
+.eating p{
+    font-size: 20px;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+body{
+    background: #e4e9f7;
+}

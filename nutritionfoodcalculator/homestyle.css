@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+ul{
+    display: block;
+}
+
+.controls{
+
+    float:right;
+
+}
+
+#stats p{
+
+    color:red;
+    padding: 10px;
+}
+
+#home{
+    margin-top: 3rem;
+}
+
+.activity-btn {
+    background-color: red !important;
+}
